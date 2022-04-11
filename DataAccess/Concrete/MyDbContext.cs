@@ -9,12 +9,12 @@ namespace DataAccess.Concrete
     public class MyDbContext:DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-            => optionsBuilder.UseNpgsql("Host=my_host;Database=my_db;Username=my_user;Password=my_pw");
+            => optionsBuilder.UseNpgsql("Host=localhost;Database=postgres;Username=postgres;Password=Fatma_16");
 
-
+        public MyDbContext(DbContextOptions<MyDbContext> options): base(options) { }
 
         public DbSet<Company> Companies { get; set; }
-        public DbSet<ContactInformation> ContactInformations { get; set; }
+        public DbSet<PersonInformation> ContactInformations { get; set; }
         public DbSet<InformationType> InformationTypes { get; set; }
         public DbSet<Person> Persons { get; set; }
 

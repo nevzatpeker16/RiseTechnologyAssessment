@@ -1,0 +1,10 @@
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\Buisness\bin\Debug\netcoreapp3.1\Buisness.deps.json
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\Buisness\bin\Debug\netcoreapp3.1\Buisness.dll
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\Buisness\bin\Debug\netcoreapp3.1\Buisness.pdb
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\Buisness\obj\Debug\netcoreapp3.1\Buisness.csproj.AssemblyReference.cache
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\Buisness\obj\Debug\netcoreapp3.1\Buisness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\Buisness\obj\Debug\netcoreapp3.1\Buisness.AssemblyInfoInputs.cache
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\Buisness\obj\Debug\netcoreapp3.1\Buisness.AssemblyInfo.cs
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\Buisness\obj\Debug\netcoreapp3.1\Buisness.csproj.CoreCompileInputs.cache
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\Buisness\obj\Debug\netcoreapp3.1\Buisness.dll
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\Buisness\obj\Debug\netcoreapp3.1\Buisness.pdb

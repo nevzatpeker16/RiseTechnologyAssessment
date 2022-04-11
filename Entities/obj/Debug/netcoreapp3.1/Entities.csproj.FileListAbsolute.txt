@@ -1,0 +1,16 @@
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\Entities\bin\Debug\netcoreapp3.1\Entities.runtimeconfig.json
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\Entities\bin\Debug\netcoreapp3.1\Entities.runtimeconfig.dev.json
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\Entities\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\Entities\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.AssemblyReference.cache
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\Entities\obj\Debug\netcoreapp3.1\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CopyComplete
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\Entities\obj\Debug\netcoreapp3.1\Entities.genruntimeconfig.cache
