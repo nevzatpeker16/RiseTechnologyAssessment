@@ -11,6 +11,9 @@ namespace Entities.Concerate
         public string Name { get; set; }
         public string Surname { get; set; }
 
-        public ContactInformation Information { get; set; }
+        public virtual ICollection<ContactInformation> Informations { get; set; }
+
+        public virtual Company PersonCompany { get; set; }
+
     }
 }
