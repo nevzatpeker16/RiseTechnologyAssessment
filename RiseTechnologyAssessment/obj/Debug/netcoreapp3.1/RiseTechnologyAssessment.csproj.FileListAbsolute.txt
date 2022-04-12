@@ -1,0 +1,10 @@
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\RiseTechnologyAssessment\bin\Debug\netcoreapp3.1\RiseTechnologyAssessment.deps.json
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\RiseTechnologyAssessment\bin\Debug\netcoreapp3.1\RiseTechnologyAssessment.dll
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\RiseTechnologyAssessment\bin\Debug\netcoreapp3.1\RiseTechnologyAssessment.pdb
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\RiseTechnologyAssessment\obj\Debug\netcoreapp3.1\RiseTechnologyAssessment.csproj.AssemblyReference.cache
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\RiseTechnologyAssessment\obj\Debug\netcoreapp3.1\RiseTechnologyAssessment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\RiseTechnologyAssessment\obj\Debug\netcoreapp3.1\RiseTechnologyAssessment.AssemblyInfoInputs.cache
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\RiseTechnologyAssessment\obj\Debug\netcoreapp3.1\RiseTechnologyAssessment.AssemblyInfo.cs
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\RiseTechnologyAssessment\obj\Debug\netcoreapp3.1\RiseTechnologyAssessment.csproj.CoreCompileInputs.cache
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\RiseTechnologyAssessment\obj\Debug\netcoreapp3.1\RiseTechnologyAssessment.dll
+C:\Users\Nevo\source\repos\RiseTechnologyAssessment\RiseTechnologyAssessment\obj\Debug\netcoreapp3.1\RiseTechnologyAssessment.pdb
