@@ -43,7 +43,7 @@ namespace Buisness.Concrete
 
         public List<PersonInformationDetail> personalInformationDetails(Person person)
         {
-            throw new NotImplementedException();
+                
         }
 
         public void RemovePerson(Person person)
