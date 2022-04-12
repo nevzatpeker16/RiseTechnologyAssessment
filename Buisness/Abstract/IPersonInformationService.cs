@@ -7,10 +7,10 @@ namespace Buisness.Abstract
 {
     public interface IPersonInformationService
     {
-        void AddContactInformation(PersonInformation contactInformation);
-        void RemoveContactInformation(PersonInformation contactInformation);
+        void AddPersonInformation(PersonInformation personInformation);
+        void RemovePersonInformation(PersonInformation personInformation);
 
-        void UpdateContactInformation(PersonInformation contactInformation);
+        void UpdatePersonInformation(PersonInformation personInformation);
 
         List<PersonInformation> GetPersonInformations();
 

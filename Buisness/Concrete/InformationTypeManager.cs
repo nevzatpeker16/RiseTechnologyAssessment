@@ -20,22 +20,31 @@ namespace Buisness.Concrete
 
         public void AddInformationType(InformationType ınformationType)
         {
-            throw new NotImplementedException();
+
+            if(ınformationType.Type.Length > 0)
+            {
+                _informationTypeDal.Add(ınformationType);
+
+            }
+
+
         }
 
         public void DeleteInformationType(InformationType ınformationType)
         {
-            throw new NotImplementedException();
+
+            _informationTypeDal.Delete(ınformationType);
         }
 
         public List<InformationType> GetInformationTypes()
         {
-            throw new NotImplementedException();
+            return new List<InformationType>(_informationTypeDal.getAll());
+
         }
 
         public void UpdateInformationType(InformationType ınformationType)
         {
-            throw new NotImplementedException();
+            _informationTypeDal.Update(ınformationType);
         }
     }
 }

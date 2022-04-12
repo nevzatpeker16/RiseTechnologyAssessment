@@ -18,27 +18,28 @@ namespace Buisness.Concrete
 
         public void AddCompany(Company company)
         {
-            throw new NotImplementedException();
+            _companyDal.Add(company);
         }
 
         public List<Company> GetCompanies()
         {
-            throw new NotImplementedException();
+            return new List<Company>(_companyDal.getAll());
         }
 
         public Company GetCompanyByPerson(Person person)
         {
-            throw new NotImplementedException();
+            return (_companyDal.Get(c => c.ID == person.PersonCompany.ID));
         }
 
         public void RemoveCompany(Company company)
         {
-            throw new NotImplementedException();
+            _companyDal.Delete(company);
+
         }
 
         public void UpdateCompany(Company company)
         {
-            throw new NotImplementedException();
+            _companyDal.Update(company);
         }
     }
 }
