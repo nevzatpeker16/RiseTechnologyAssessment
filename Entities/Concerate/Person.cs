@@ -7,11 +7,16 @@ namespace Entities.Concerate
 {
     public class Person:IEntity
     {
-        public Guid Id { get; set; }
+        public Person()
+        {
+            ID = new Guid();
+        }
+
+        public Guid ID { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
 
-        public virtual ICollection<ContactInformation> Informations { get; set; }
+        public virtual ICollection<PersonInformation> Informations { get; set; }
 
         public virtual Company PersonCompany { get; set; }
 

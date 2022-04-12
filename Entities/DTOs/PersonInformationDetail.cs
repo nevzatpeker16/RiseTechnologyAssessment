@@ -12,6 +12,6 @@ namespace Entities.DTOs
         public string PersonName { get; set; }
         public string PersonSurname { get; set; }
         public Company PersonCompany { get; set; }
-        public List<ContactInformation> ContactInformations { get; set; }
+        public List<PersonInformation> ContactInformations { get; set; }
     }
 }

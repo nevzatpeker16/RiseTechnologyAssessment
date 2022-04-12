@@ -5,9 +5,14 @@ using System.Text;
 
 namespace Entities.Concerate
 {
-    public class ContactInformation:IEntity
+    public class PersonInformation:IEntity
     {
-        public Guid Id { get; set; }
+        public PersonInformation()
+        {
+            ID = new Guid();
+        }
+
+        public Guid ID { get; set; }
 
         public  virtual InformationType InfoType { get; set; }
 
