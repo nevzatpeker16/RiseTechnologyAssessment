@@ -1,4 +1,5 @@
-﻿using Entities.Concerate;
+﻿using Core.Utilities.Results.Abstract;
+using Entities.Concerate;
 using Entities.DTOs;
 using System;
 using System.Collections.Generic;
@@ -8,18 +9,18 @@ namespace Buisness.Abstract
 {
     public interface IPersonService
     {
-        void AddPerson(Person person);
-        void RemovePerson(Person person);
+        IResult AddPerson(Person person);
+        IResult RemovePerson(Person person);
 
-        void UpdatePerson(Person person);
+        IResult UpdatePerson(Person person);
 
-        List<Person> GetAllPersons();
+        IDataResult<List<Person>> GetAllPersons();
 
-        List<Person> getPersonByInformation(PersonInformation contactInformation);
+        IDataResult<List<Person>> getPersonByInformation(PersonInformation contactInformation);
 
-        List<Person> getPersonByContactInformation(string  contactInformation);
+        IDataResult<List<Person>> getPersonByContactInformation(string  contactInformation);
 
-        List<PersonInformationDetail> personalInformationDetails(Person person);
+        IDataResult<List<PersonInformationDetail>> personalInformationDetails(Person person);
 
 
     }

@@ -17,18 +17,21 @@ namespace WebAPI.Controllers
         [HttpPost("addperson")]
         public IActionResult AddPerson(Person person)
         {
-            if (person == null)
-            {
-                return BadRequest();
-            }
-            else
-            {
-                _personService.AddPerson(person);
-                return Ok("Person  Added");
-            }
+            return View();
+
         }
         [HttpPost("deleteperson")]
+        public IActionResult DeletePerson(Person person)
+        {
+            return View();
 
+        }
+        [HttpPost("updateperson")]
+        public IActionResult UpdatePerson(Person person)
+        {
+            return View();
+
+        }
 
         public IActionResult Index()
         {

@@ -1,4 +1,6 @@
 ﻿using Buisness.Abstract;
+using Core.Utilities.Results.Abstract;
+using Core.Utilities.Results.Concrete;
 using DataAccess.Abstract;
 using Entities.Concerate;
 using Entities.DTOs;
@@ -19,39 +21,41 @@ namespace Buisness.Concrete
             _personInformationDal = personInformationDal;
         }
 
-        public void AddPerson(Person person)
+        public IResult AddPerson(Person person)
         {
             _personDal.Add(person);
+            throw new NotImplementedException();
 
         }
 
-        public List<Person> GetAllPersons()
+        public IDataResult<List<Person>> GetAllPersons()
         {
-            return new List<Person>(_personDal.getAll());
+            return new SuccessDataResult<List<Person>>(_personDal.getAll());
         }
 
-        public List<Person> getPersonByContactInformation(string contactInformation)
+        public IDataResult<List<Person>> getPersonByContactInformation(string contactInformation)
         {
-            return new List<Person>(_personDal.getAll(p => p.Informations.Contains(_personInformationDal.Get(ci=>ci.InfoType.Type == contactInformation))));
+            return new SuccessDataResult<List<Person>>(_personDal.getAll(p => p.Informations.Contains(_personInformationDal.Get(ci=>ci.InfoType.Type == contactInformation))));
 
         }
 
-        public List<Person> getPersonByInformation(PersonInformation contactInformation)
+        public IDataResult<List<Person>> getPersonByInformation(PersonInformation contactInformation)
         {
-            return new List<Person>(_personDal.getAll(p => p.Informations.Contains(contactInformation)));
+            return new SuccessDataResult<List<Person>>(_personDal.getAll(p => p.Informations.Contains(contactInformation)));
         }
 
-        public List<PersonInformationDetail> personalInformationDetails(Person person)
+        public IDataResult<List<PersonInformationDetail>> personalInformationDetails(Person person)
         {
-                
+            throw new NotImplementedException();
+
         }
 
-        public void RemovePerson(Person person)
+        public IResult RemovePerson(Person person)
         {
             throw new NotImplementedException();
         }
 
-        public void UpdatePerson(Person person)
+        public IResult UpdatePerson(Person person)
         {
             throw new NotImplementedException();
         }

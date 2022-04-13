@@ -1,4 +1,5 @@
 ﻿using Buisness.Abstract;
+using Core.Utilities.Results.Abstract;
 using DataAccess.Abstract;
 using Entities.Concerate;
 using System;
@@ -11,27 +12,42 @@ namespace Buisness.Concrete
     {
         IPersonInformationDal _personInformationDal;
 
-        public void AddContactInformation(PersonInformation contactInformation)
+        public IResult AddContactInformation(PersonInformation contactInformation)
         {
             throw new NotImplementedException();
         }
 
-        public List<PersonInformation> GetPersonInformations()
+        public IResult AddPersonInformation(PersonInformation personInformation)
         {
             throw new NotImplementedException();
         }
 
-        public List<PersonInformation> GetPersonInformationsByPerson(Person person)
+        public IDataResult<List<PersonInformation>> GetPersonInformations()
         {
             throw new NotImplementedException();
         }
 
-        public void RemoveContactInformation(PersonInformation contactInformation)
+        public IDataResult<List<PersonInformation>> GetPersonInformationsByPerson(Person person)
         {
             throw new NotImplementedException();
         }
 
-        public void UpdateContactInformation(PersonInformation contactInformation)
+        public IResult RemoveContactInformation(PersonInformation contactInformation)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult RemovePersonInformation(PersonInformation personInformation)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult UpdateContactInformation(PersonInformation contactInformation)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult UpdatePersonInformation(PersonInformation personInformation)
         {
             throw new NotImplementedException();
         }
