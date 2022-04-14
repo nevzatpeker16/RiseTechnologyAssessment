@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "3RbTkoohKLUSIpnY9RIYxk6F7vBmOm7knP1usOoWUOuHrAxFRMQDu3NdtNcBw5eT3a9S+3gq84+Vcd1/+GK3pA==",
+  "dgSpecHash": "NDkpFJmm0qzqGeubYEw5xiBPlt4w/HyI/un8nwh+ftUMcKLQ/faNXHYrecJ6LodUb+EH3pQdTHkf2RHNJivJ8Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Nevo\\source\\repos\\RiseTechnologyAssessment\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Nevo\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\Nevo\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Nevo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Nevo\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.3\\microsoft.entityframeworkcore.5.0.3.nupkg.sha512",
