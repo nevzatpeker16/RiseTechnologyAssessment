@@ -14,7 +14,7 @@ namespace Entities.Concerate
 
         public Guid ID { get; set; }
 
-        public  virtual InformationType InfoType { get; set; }
+        public InformationType InfoType { get; set; }
 
         public string Information { get; set; }
 

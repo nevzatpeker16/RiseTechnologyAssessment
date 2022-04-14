@@ -1,4 +1,5 @@
-﻿using Entities.Concerate;
+﻿using Core.Utilities.Results.Abstract;
+using Entities.Concerate;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -8,12 +9,12 @@ namespace Buisness.Abstract
     public interface IInformationTypeService
     {
 
-        void AddInformationType(InformationType ınformationType);
-        void DeleteInformationType(InformationType ınformationType);
+        IResult AddInformationType(InformationType ınformationType);
+        IResult DeleteInformationType(InformationType ınformationType);
 
-        void UpdateInformationType(InformationType ınformationType);
+        IResult UpdateInformationType(InformationType ınformationType);
 
-        List<InformationType> GetInformationTypes();
+        IDataResult<List<InformationType>> GetInformationTypes();
 
     }
 }

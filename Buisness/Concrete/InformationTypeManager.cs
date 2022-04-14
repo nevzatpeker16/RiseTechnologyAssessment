@@ -1,4 +1,6 @@
 ﻿using Buisness.Abstract;
+using Core.Utilities.Results.Abstract;
+using Core.Utilities.Results.Concrete;
 using DataAccess.Abstract;
 using Entities.Concerate;
 using System;
@@ -18,22 +20,23 @@ namespace Buisness.Concrete
             _informationTypeDal = informationTypeDal;
         }
 
-        public void AddInformationType(InformationType ınformationType)
+        public IResult AddInformationType(InformationType ınformationType)
         {
             throw new NotImplementedException();
         }
 
-        public void DeleteInformationType(InformationType ınformationType)
+        public IResult DeleteInformationType(InformationType ınformationType)
+        {
+            _informationTypeDal.Delete(ınformationType);
+            return new SuccessResult("Deleted");
+        }
+
+        public IDataResult<List<InformationType>> GetInformationTypes()
         {
             throw new NotImplementedException();
         }
 
-        public List<InformationType> GetInformationTypes()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void UpdateInformationType(InformationType ınformationType)
+        public IResult UpdateInformationType(InformationType ınformationType)
         {
             throw new NotImplementedException();
         }

@@ -1,4 +1,6 @@
 ﻿using Buisness.Abstract;
+using Core.Utilities.Results.Abstract;
+using Core.Utilities.Results.Concrete;
 using DataAccess.Abstract;
 using Entities.Concerate;
 using System;
@@ -16,29 +18,31 @@ namespace Buisness.Concrete
             _companyDal = companyDal;
         }
 
-        public void AddCompany(Company company)
+        public IResult AddCompany(Company company)
         {
-            throw new NotImplementedException();
+            _companyDal.Add(company);
+            return new Result(true);
+        }
+        public IDataResult<List<Company>> GetCompanies()
+        {
+            return new SuccessDataResult<List<Company>>(_companyDal.getAll());
+
+        }
+        public IDataResult<Company> GetCompanyByPerson(Person person)
+        {
+            return  new SuccessDataResult<Company>((_companyDal.Get(c => c.ID == person.PersonCompany.ID)));
+
         }
 
-        public List<Company> GetCompanies()
+        public IResult RemoveCompany(Company company)
         {
-            throw new NotImplementedException();
+            _companyDal.Delete(company);
+            return new SuccessResult();
         }
-
-        public Company GetCompanyByPerson(Person person)
+        public IResult UpdateCompany(Company company)
         {
-            throw new NotImplementedException();
-        }
-
-        public void RemoveCompany(Company company)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void UpdateCompany(Company company)
-        {
-            throw new NotImplementedException();
+            _companyDal.Update(company);
+            return new SuccessResult();
         }
     }
 }
