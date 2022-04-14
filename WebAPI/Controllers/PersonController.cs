@@ -1,6 +1,7 @@
 ﻿using Buisness.Abstract;
 using Entities.Concerate;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace WebAPI.Controllers
 {
@@ -17,8 +18,8 @@ namespace WebAPI.Controllers
         [HttpPost("addperson")]
         public IActionResult AddPerson(Person person)
         {
-            return View();
-
+            Task.Run(() => _personService.AddPerson(person));
+            return null;
         }
         [HttpPost("deleteperson")]
         public IActionResult DeletePerson(Person person)
